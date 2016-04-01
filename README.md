@@ -1,4 +1,4 @@
-Mouse Back / Forward Navigation for Linux Electron X11
+Mouse Back / Forward for Electron Linux
 ======================================================
 
 A module used to listen for buttons 8/9 for a window in Electron.
