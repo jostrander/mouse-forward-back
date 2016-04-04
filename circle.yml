@@ -1,0 +1,9 @@
+machine:
+  node:
+    version: 5.9.0
+
+dependencies:
+  pre:
+    - sudo apt-get update
+    - sudo apt-get install libx32gcc-4.8-dev libc6-dev-i386 gcc-4.8-multilib g++-4.8-multilib
+    - sudo apt-get install build-essential g++ libx11-dev
