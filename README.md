@@ -3,6 +3,21 @@ Mouse Back / Forward for Electron Linux
 
 A module used to listen for buttons 8/9 for a window in Electron.
 
+## Installation
+If during `npm install` you get issues about a missing library it's likely that you are missing `X11/Xlib`.
+Run the following command and try installing again:
+
+```bash
+sudo apt install libx11-dev
+```
+
+If your Electron Chrome version diverges from your locally installed, which is pretty likely the case, do the following after installing the package to rebuild it using electrons chrome version:
+
+```bash
+npm install --save-dev electron-rebuild
+npx electron-rebuild
+```
+
 ## Usage
 
 Requiring the module returns an object with one method:
