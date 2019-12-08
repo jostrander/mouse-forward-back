@@ -64,7 +64,7 @@ namespace MouseForwardBack {
         isolate->SetFatalErrorHandler(OnFatalError);
         
         // Callback
-        Local<Function> cb = info[0].As<Function>();
+        cb.Reset(info[0].As<Function>());
 
         // Window handle
         Local<Value> value = info[1];
