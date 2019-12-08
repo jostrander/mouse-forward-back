@@ -1,6 +1,6 @@
 {
   "name": "mouse-forward-back",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A module used to listen for buttons 8/9 for a window in Electron.",
   "repository": "https://github.com/jostrander/mouse-forward-back",
   "main": "mouse-forward-back.js",
