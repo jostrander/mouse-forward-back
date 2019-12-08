@@ -6,7 +6,7 @@ var mouseForwardBack = require('bindings')('mouse-forward-back');
 
 module.exports = {
     register: function(callback, handle) {
-        mouseForwardBack(function(msg) {
+        mouseForwardBack.register(function(msg) {
           if (msg === 8) {
             callback("back");
           } else if (msg === 9) {

@@ -6,7 +6,9 @@
   "main": "mouse-forward-back.js",
   "gypfile": true,
   "license": "MIT",
-  "os": ["linux"],
+  "os": [
+    "linux"
+  ],
   "scripts": {
     "install": "node-gyp rebuild",
     "test": "echo \"Error: no test specified\" && exit 1"
